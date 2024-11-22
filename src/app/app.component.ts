@@ -8,8 +8,8 @@ import { ButtonComponent } from './ui/button.component';
   imports: [RouterOutlet, ButtonComponent],
   template: `
     <div class="font-sans h-screen ">
-      <div class="container mx-auto flex flex-row h-screen p-4">
-        <div class="w-80 flex-shrink-0 p-4 border-r border-r-slate-300 space-y-2">
+      <div class="xl:container h-screen mx-auto flex flex-col md:flex-row p-4">
+        <div class="md:w-80 flex-shrink-0 p-4 border-r border-r-slate-300 space-y-2">
           <h1 class="text-3xl font-semibold">OSLYN Hunt 2024</h1>
           <div class="font-semibold border-b border-b-slate-300"></div>
           <app-button class="block" path="/">
