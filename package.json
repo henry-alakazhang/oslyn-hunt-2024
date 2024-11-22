@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build && cp CNAME dist/oslyn-hunt-2024/browser/CNAME && gh-pages -d dist/oslyn-hunt-2024/browser"
   },
   "private": true,
   "dependencies": {
