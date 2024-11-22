@@ -20,31 +20,31 @@ import { ButtonComponent } from './ui/button.component';
             1 - Sekai @if (answerStatus[1]()) { ☆ }
           </app-button>
           <app-button class="block" path="/power-scaling">
-            2 - Power Scaling @if (answerStatus[1]()) { ☆ }
+            2 - Power Scaling @if (answerStatus[2]()) { ☆ }
           </app-button>
           @if (answerCount() >= 1) {
             <app-button class="block" path="/capsule-machine">
-              3 - Capsule Machine @if (answerStatus[1]()) { ☆ }
+              3 - Capsule Machine @if (answerStatus[3]()) { ☆ }
             </app-button>
           }
           @if (answerCount() >= 2) {
             <app-button class="block" path="/entries-mains-deserts">
-              4 - Entries, Mains, Desserts @if (answerStatus[1]()) { ☆ }
+              4 - Entries, Mains, Desserts @if (answerStatus[4]()) { ☆ }
             </app-button>
           }
           @if (answerCount() >= 3) {
             <app-button class="block" path="/parallel-universes">
-              5 - Parallel Universes @if (answerStatus[1]()) { ☆ }
+              5 - Parallel Universes @if (answerStatus[5]()) { ☆ }
             </app-button>
           }
           @if (answerCount() >= 4) {
             <app-button class="block" path="/first-name-basis">
-              6 - First Name Basis @if (answerStatus[1]()) { ☆ }
+              6 - First Name Basis @if (answerStatus[6]()) { ☆ }
             </app-button>
           }
           @if (answerCount() >= 5) {
             <app-button class="block" path="/hunters-and-gatherers">
-              M - Hunters and Gatherers @if (answerStatus[1]()) { ☆ }
+              M - Hunters and Gatherers @if (answerStatus["m"]()) { ☆ }
             </app-button>
           }
         </div>
