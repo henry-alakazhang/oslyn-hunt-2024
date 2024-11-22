@@ -32,7 +32,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
       </div>
     </div>
     <div>
-      One old / two new / one old
+      Three old
       <div class="flex flex-row flex-wrap space-x-1 space-y-1">
         <img class="w-12" src="./sekai/2-1.webp" />
         <img class="w-12" src="./sekai/2-2.webp" />
@@ -50,7 +50,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
       </div>
     </div>
     <div>
-      Two new / one old
+      One old / one new / one old
       <div class="flex flex-row flex-wrap space-x-1 space-y-1">
         <img class="w-12" src="./sekai/3-1.webp" />
         <img class="w-12" src="./sekai/3-2.webp" />
