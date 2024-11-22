@@ -1,59 +1,12 @@
 # OslynHunt2024
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
+ Welcome to OSLYN+Kirbs Hunt 2024! This is a puzzle hunt similar to Galactic Hunt and other online puzzle hunts. A couple of things to note:
 
-## Development server
+- There are 6 puzzles, plus a meta-puzzle. Two puzzles are unlocked initially, and each completed puzzle unlocks another.
+- Every bit of text on a puzzle is part of the puzzle. That includes the title, flavour text and (obviously) the puzzle body.
+- Answers only contain alphabetic characters and are not case-sensitive.
+- This is a fully client-side hunt, meaning there's no server hosting this, no timer, and no leaderboard. You can (and should) do this puzzle in a team, but there's nothing to track that for you. Each of you will have to enter the answers in your browser to unlock more puzzles.
+- You do not need to inspect element, look at the source or view the code for the repository in order to solve the puzzles. You can't cheat like that, either. Even though the answers are validated client-side, they aren't stored in plaintext.
+- The puzzles lean somewhat pop-culture-heavy in references and themes.
 
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Access the puzzle hunt at https://puzzles.caterpie.ninja
