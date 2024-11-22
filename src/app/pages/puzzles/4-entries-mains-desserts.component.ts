@@ -3,6 +3,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
 
 @Component({
   template: `<app-puzzle
+    puzzleId="4"
     titleName="Entries, Mains, Desserts"
     flavour="You are interrupted from your inflight movie by an attendant handing you a series of menus, each thick as a book. Now this is more like a holiday - you get a three large meals inflight?! You kind of want to game the system and try everything, but you probably should just pick something from each. What are you having?"
     extraHint="(note: this puzzle was written in October 2024)"

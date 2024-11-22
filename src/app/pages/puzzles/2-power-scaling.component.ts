@@ -4,6 +4,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
 @Component({
   template: `
     <app-puzzle
+      puzzleId="2"
       titleName="Power Scaling"
       flavour="When you arrive at the airport for your trip, all the lights are off - apparently they've had a blackout. One of the attendants hands you a piece of paper and says it's a list of flights. So... which gate are you supposed to board at?"
       extraHint="(6 3)"

@@ -3,6 +3,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
 
 @Component({
   template: `<app-puzzle
+    puzzleId="m"
     titleName="Hunters and Gatherers"
     flavour="Ginormous hiccups aside, you do end up have a long and enjoyable (if initially stressful) holiday. Arriving back home, you greet your old neighbour Giovan and check your mailbox. There's only one thing inside - it looks like an invoice but you can't make any sense of it."
     extraHint="(note: this puzzle was written in October 2024)"

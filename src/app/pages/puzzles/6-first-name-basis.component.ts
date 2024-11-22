@@ -3,6 +3,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
 
 @Component({
   template: `<app-puzzle
+    puzzleId="6"
     titleName="First Name Basis"
     flavour="Given your rather big mistake, you decide to book a tour group for the rest of the trip. You're young - you can make friends, right? You did see a group at the hotel but the guide's name has popped clean out of your head..."
     extraHint="Click the image to get a spreadsheet"

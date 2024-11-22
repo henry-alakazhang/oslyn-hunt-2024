@@ -20,6 +20,9 @@ import { Component } from '@angular/core';
           title, flavour text and (obviously) the puzzle body.
         </li>
         <li>
+          Answers only contain alphabetic characters and are not case-sensitive.
+        </li>
+        <li>
           This is a fully client-side hunt, meaning there's no server hosting
           this, no timer, and no leaderboard. You can (and should) do this
           puzzle in a team, but there's nothing to track that for you. Each of

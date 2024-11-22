@@ -3,6 +3,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
 
 @Component({
   template: ` <app-puzzle
+    puzzleId="3"
     titleName="Capsule Machine"
     flavour="Eventually, you make it to your gate, only to find out that the flight is overbooked and they're picking people to kick off based on a questionnaire. Is there a way you can make sure you get on your plane...?"
   >
