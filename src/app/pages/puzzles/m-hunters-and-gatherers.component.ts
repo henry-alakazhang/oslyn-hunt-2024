@@ -10,27 +10,27 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   >
     <table class="font-mono border-separate border-spacing-x-3">
       <tr>
-        <td> Professor Layton and the Virtuous College</td>
+        <td> Professor Layton and the Virtuous College (3) </td>
         <td> 2ZLHR3QGFCBFQOQTXMXLOWFBTXFMW! </td>
       </tr>
       <tr>
-        <td> Professor Layton and Porygon's Biz</td>
+        <td> Professor Layton and Porygon's Biz (5) </td>
         <td> EIJQLLEZHAWXDJULQWIOWIYHDWZYDD </td>
       </tr>
       <tr>
-        <td> Professor Layton and the Lone Faroe</td>
+        <td> Professor Layton and the Lone Faroe (6) </td>
         <td> BZPNGKMZFNGVWNPR!URXWJOHKIVQUA </td>
       </tr>
       <tr>
-        <td> Professor Layton and the Stellar's Call</td>
+        <td> Professor Layton and the Stellar's Call (8) </td>
         <td> MIGEHXMFHANKQGBJKGZOFTVFZHPBCW </td>
       </tr>
       <tr>
-        <td> Professor Layton and the Miracle Mark</td>
+        <td> Professor Layton and the Miracle Mark (5) </td>
         <td> ONYCZGJGGLGWJNLTUMNLJNMDROYEXA </td>
       </tr>
       <tr>
-        <td> Professor Layton and the Advent Legendary</td>
+        <td> Professor Layton and the Advent Legendary (7 6) </td>
         <td> JCYOUARBZOITOUGHPHNWVIRDQIUWDP </td>
       </tr>
     </table>
