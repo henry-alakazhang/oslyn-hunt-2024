@@ -20,7 +20,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
         <p class="font-bold"> Across </p>
         <p> 2. What you hope to have at a party (2 wds) </p>
         <p> 3. Required to get behind a wheel (2 wds) </p>
-        <p> 4. Marvelous or charming </p>
+        <p> 4. How one might describe Queenstown's iconic burger </p>
         <p> 7. Antagonistic protagonist </p>
         <p> 8. Dogs evolved from these </p>
         <p> 10. Largest boa constrictor </p>
