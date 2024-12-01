@@ -70,7 +70,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
           20 SpD Malachite Lucario: 26.6 - 31.3% -- guaranteed 4HKO
         </p>
         <p>
-          28 Atk 12 IVs Hoopla-Forbidden Hyperspace Obliteration vs. 24 HP / 12
+          24 Atk 12 IVs Hoopa-Forbidden Hyperspace Obliteration vs. 24 HP / 12
           Def Three Separate Reshiram: 153% - 180%-- guaranteed OHKO
         </p>
       </div>
