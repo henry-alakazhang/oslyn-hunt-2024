@@ -30,7 +30,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
         <td> ONYCZGJGGLGWJNLTUMNLJNMDROYEXA </td>
       </tr>
       <tr>
-        <td> Professor Layton and the Advent Legendary (7 6) </td>
+        <td> Professor Layton and the Advent Hysteria (7 6) </td>
         <td> JCYOUARBZOITOUGHPHNWVIRDQIUWDP </td>
       </tr>
     </table>
