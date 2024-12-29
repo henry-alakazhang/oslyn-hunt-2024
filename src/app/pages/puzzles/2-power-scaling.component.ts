@@ -6,8 +6,10 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
     <app-puzzle
       puzzleId="2"
       titleName="Power Scaling"
-      flavour="When you arrive at the airport for your trip, all the lights are off - apparently they've had a blackout. One of the attendants hands you a piece of paper and says it's a list of flights. So... which gate are you supposed to board at?"
-      extraHint="(6 3)"
+      flavour="When you arrive at the airport, an attendant hands you a piece of paper and says it's a list of flights.
+        It looks more like fights to you, but even that doesn't seem quite right...
+        Maybe if you could extract something from this, you'd be able to figure out which gate you're supposed to board at."
+      extraHint="(the answer is two words)"
     >
       <div
         class="p-2 space-y-1"
@@ -22,24 +24,24 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
           HP / 16 SpD Flutter Mane in Sun: 133.7 - 157.3% -- guaranteed OHKO
         </p>
         <p>
-          16 Atk 14 IVs Rayquaza-Mega Dragon Claw vs. 144 HP / 28+ Def
+          16 Atk 14 IVs Rayquaza-Mega Dragon Claw vs. 144 HP / 28+ Def Paralyzed
           Deoxys-Defense through Reflect: 15.1 - 17.7%-- possible 6HKO
         </p>
         <p>
-          Lv 5 68 SpA Pikachu Thunderbolt vs. 28 HP / 40 SpD Team Rocket: 12.1 -
-          14.4% -- possible 7HKO
+          20 SpA 17 IVs Pikachu Thunderbolt vs. 28 HP / 40 SpD Team Rocket: 12.1
+          - 14.4% -- possible 7HKO
         </p>
         <p>
           80 Atk 22 IVs Omnidirectional Gear Ceruledge Bitter Blade vs. 68 HP /
           32 Def Gigantamax Conkeldurr: 23 - 27.3% -- possible 4HKO
         </p>
         <p>
-          +1 132 Atk Tera Electric Gallade-Zen Thunderclap Flash vs. 80 HP / 28
-          Def Paralyze Point Spinarak: 16.7 - 19.9% -- guaranteed 6HKO
+          4 Atk 33 IVs Tera Electric Gallade-Zen Thunderclap Flash vs. 80 HP /
+          28 Def Paralyze Point Spinarak: 16.7 - 19.9% -- guaranteed 6HKO
         </p>
         <p>
-          +1 60 Atk Dramon Killer Armarouge Corkscrew Crash vs. 96 HP / 52 Def
-          Tera Metal Seadra in Tailwind: 115 - 133.8% -- guaranteed OHKO
+          4 Atk 15 IVs Dramon Killer Armarouge Corkscrew Crash vs. 96 HP / 52
+          Def Tera Metal Seadra in Tailwind: 115 - 133.8% -- guaranteed OHKO
         </p>
         <p>
           48 SpA 16 IVs Infernape-Mega-3 Spirit Bomb vs. 48 HP / 40 SpD
@@ -58,12 +60,12 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
           Urshifu-Rapid-Strike: 40.9 - 48.3% -- guaranteed 3HKO
         </p>
         <p>
-          84 SpA 20 IVs Purple Orb Meowstic Expanding Force vs. 92 HP / 36 SpD
-          Trevenant in Expanded Domain: 175.4 - 206.7% -- guaranteed OHKO
+          76 SpA 4 IVs Purple Orb Meowstic-Male Hollow Technique vs. 92 HP / 36
+          SpD Trevenant in Expanded Domain: 175.4 - 206.7% -- guaranteed OHKO
         </p>
         <p>
-          +5 12 Atk Palafin-Hero United States of Smash vs. 56 HP / 4 Def Tera
-          Dark Zoroark: 31.8 - 37.3% -- 89.4% chance to 3HKO
+          20 Atk 3 IVs Palafin-Hero United States of Smash vs. 56 HP / 4 Def
+          Tera Dark Zoroark: 31.8 - 37.3% -- 89.4% chance to 3HKO
         </p>
         <p>
           136 SpA 20 IVs Star Piece Diancie-Mega Healing Escalation vs. 12 HP /

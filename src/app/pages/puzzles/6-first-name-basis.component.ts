@@ -5,7 +5,10 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   template: `<app-puzzle
     puzzleId="6"
     titleName="First Name Basis"
-    flavour="Given your rather big mistake, you decide to book a tour group for the rest of the trip. You're young - you can make friends, right? You did see a group at the hotel but the guide's name has popped clean out of your head..."
+    flavour="
+      Given your rather big mistake, you decide to book a tour group for the rest of the trip.
+      You did see a group of young people at the hotel - maybe you could follow their route around the city.
+      Only problem is the guide's name has poppsed clean out of your head..."
     extraHint="Click the image to get a spreadsheet"
   >
     <div class="flex flex-col md:flex-row align-middle">

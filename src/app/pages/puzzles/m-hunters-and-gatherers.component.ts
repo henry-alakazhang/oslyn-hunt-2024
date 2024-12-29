@@ -5,7 +5,11 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   template: `<app-puzzle
     puzzleId="m"
     titleName="Hunters and Gatherers"
-    flavour="Ginormous hiccups aside, you do end up have a long and enjoyable (if initially stressful) holiday. Arriving back home, you greet your old neighbour Giovan and check your mailbox. There's only one thing inside - it looks like an invoice but you can't make any sense of it."
+    flavour="
+      Hiccups aside, you do end up have a long and enjoyable (if initially stressful) holiday.
+      Arriving back home, you greet your old neighbour Giovan and check your mailbox.
+      There's only one piece of paper inside - it looks like an invoice but there's a puzzling lack of information.
+      If you could get it in order, you might be able to figure out what it costs... and what it's for..."
     extraHint="(note: this puzzle was written in October 2024)"
   >
     <table class="font-mono border-separate border-spacing-x-3">
@@ -22,7 +26,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
         <td> BZPNGKMZFNGVWNPR!URXWJOHKIVQUA </td>
       </tr>
       <tr>
-        <td> Professor Layton and the Stellar's Call (8) </td>
+        <td> Professor Layton and the Supercluster's Call (8) </td>
         <td> MIGEHXMFHANKQGBJKGZOFTVFZHPBCW </td>
       </tr>
       <tr>

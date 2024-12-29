@@ -7,10 +7,10 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   template: ` <app-puzzle
     puzzleId="1"
     titleName="Sekai"
-    flavour="You're feeling a bit burned out from work, so it's probably time
-    for a vacation. You absent-mindedly start scrolling through all your pinned
-    websites to find some inspo. Where to go... where to go..."
-    extraHint="(the answer is a nine-letter word)"
+    flavour="You've decided: it's time for a vacation.
+      You absent-mindedly start scrolling through all your pinned
+      websites to find some inspo. Where to go... where to go..."
+    extraHint="(the answer is a proper noun)"
   >
     <div>
       Two new / two old
@@ -28,7 +28,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
         <img class="w-12" src="./sekai/1-11.webp" />
         <img class="w-12" src="./sekai/1-12.webp" />
         <img class="w-12" src="./sekai/1-13.webp" />
-        <p class="text-3xl">_</p>
+        <p class="text-3xl">?</p>
       </div>
     </div>
     <div>
@@ -46,7 +46,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
         <img class="w-12" src="./sekai/2-10.webp" />
         <img class="w-12" src="./sekai/2-11.webp" />
         <img class="w-12" src="./sekai/2-12.webp" />
-        <p class="text-3xl">_</p>
+        <p class="text-3xl">?</p>
       </div>
     </div>
     <div>
@@ -65,7 +65,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
         <img class="w-12" src="./sekai/3-11.webp" />
         <img class="w-12" src="./sekai/3-12.webp" />
         <img class="w-12" src="./sekai/3-13.webp" />
-        <p class="text-3xl">_</p>
+        <p class="text-3xl">?</p>
       </div>
     </div>
     <div>
@@ -89,7 +89,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
         <img class="w-12" src="./sekai/4-16.webp" />
         <img class="w-12" src="./sekai/4-17.webp" />
         <img class="w-12" src="./sekai/4-18.webp" />
-        <p class="text-3xl">_</p>
+        <p class="text-3xl">?</p>
       </div>
     </div>
   </app-puzzle>`,
