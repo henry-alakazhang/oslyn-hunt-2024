@@ -15,7 +15,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
     <table class="font-mono border-separate border-spacing-x-3">
       <tr>
         <td> Professor Layton and the Virtuous College (3) </td>
-        <td> 2ZLHR3QGFCBFQOQTXMXLOWFBTXFMW! </td>
+        <td> 2ZLHR3QGFCBFQOQTXMXLOWFBTXMBXP </td>
       </tr>
       <tr>
         <td> Professor Layton and Porygon's Biz (5) </td>
@@ -23,7 +23,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
       </tr>
       <tr>
         <td> Professor Layton and the Lone Faroe (6) </td>
-        <td> BZPNGKMZFNGVWNPR!URXWJOHKIVQUA </td>
+        <td> BZPNGKMZFNGLAGGEEKWHPYBXPSOFHQ </td>
       </tr>
       <tr>
         <td> Professor Layton and the Supercluster's Call (8) </td>
