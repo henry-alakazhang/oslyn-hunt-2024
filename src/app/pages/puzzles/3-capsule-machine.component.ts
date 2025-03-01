@@ -10,6 +10,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
       It looks they're like picking people to board basically at random!
       Is there a way you can make sure you get on your plane?
     "
+    [cannedHints]="cannedHints"
   >
     <p> Prince's year to party (4) </p>
     <p> Biblical boat (3) </p>
@@ -31,4 +32,9 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   </app-puzzle>`,
   imports: [PuzzleComponent],
 })
-export class PuzzleThreeComponent {}
+export class PuzzleThreeComponent {
+  protected cannedHints = [
+    "Some of the answer words are related to each other, except they're a little wrong. The title might help here.",
+    "There's a list of these on Wikipedia you should be able to use to match the 7 names.",
+  ];
+}

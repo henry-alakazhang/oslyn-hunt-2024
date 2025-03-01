@@ -12,6 +12,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
       What are you having?
     "
     extraHint="(note: this puzzle was written in October 2024)"
+    [cannedHints]="cannedHints"
   >
     <table class="mb-4 border border-black">
       <tr> <td class="px-1"> ENTREE (8) </td> <td class="px-1"> </td> </tr>
@@ -247,4 +248,11 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   </app-puzzle>`,
   imports: [PuzzleComponent],
 })
-export class PuzzleFourComponent {}
+export class PuzzleFourComponent {
+  protected cannedHints = [
+    "I Ate At An Omakase Restaurant Where Each Set Had A Different Number Of Courses But The Menu Items Weren't Food Or Light Novels?",
+    'Counting Entries In a Series In A World Where Title Numbers then Wikipedia and Goodreads Lists Are The Source Of Truth, Series Without Them Have To Be Eyeballed Using Chronology',
+    "OK no more of the silly title gimmick. To translate the last two hints: each line represents an entry in a series, with the number representing the total number of entries. For each clue, you'll want to find the entry number. There are explicit sources for films (try 'lists of film series' for a list of lists!) and books described above, but sources differ for video games. Use title numbers if available, but otherwise use the number given in its Wikipedia article, or calculate it using Wikipedia's definition of 'main game' in its article on the series",
+    'For what reason? What is the charge? Eating a DESSERT (8)? A ENTREE (8) MAIN (8) DESSERT (8)?',
+  ];
+}

@@ -7,7 +7,28 @@ import { AnswerService, PuzzleId } from '../answer.service';
   imports: [FormsModule],
   template: `
     <div>
-      <h2 class="text-xl underline">{{ titleName }}</h2>
+      <div class="flex flex-row justify-between">
+        <h2 class="text-xl underline">{{ titleName }}</h2>
+        <div>
+          @for (hint of cannedHints; track $index) {
+          <button
+            class="text-xl cursor-pointer"
+            [attr.popovertarget]="'hint-' + $index"
+          >
+            🥫
+          </button>
+          <div
+            class="h-full w-full bg-slate-400/50 pointer-events-none p-40"
+            id="hint-{{ $index }}"
+            popover
+          >
+            <p class="rounded shadow-sm bg-white p-2 max-w-80 m-auto">
+              {{ hint }}
+            </p>
+          </div>
+          }
+        </div>
+      </div>
       <p class="italic mb-4">{{ flavour }}</p>
       @if(extraHint) { <p class="italic text-sm mb-4">{{ extraHint }}</p> }
       <hr class="mb-4" />
@@ -49,6 +70,7 @@ export class PuzzleComponent implements OnInit {
   @Input() titleName: string;
   @Input() flavour: string;
   @Input() extraHint: string;
+  @Input() cannedHints: string[];
   /** MD5 hash of the answer */
   @Input() answerHash: string;
 

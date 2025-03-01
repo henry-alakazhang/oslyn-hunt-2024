@@ -10,6 +10,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
         It looks more like fights to you, but even that doesn't seem quite right...
         Maybe if you could extract something from this, you'd be able to figure out which gate you're supposed to board at."
       extraHint="(the answer is two words)"
+      [cannedHints]="cannedHints"
     >
       <div
         class="p-2 space-y-1"
@@ -80,4 +81,12 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   `,
   imports: [PuzzleComponent],
 })
-export class PuzzleTwoComponent {}
+export class PuzzleTwoComponent {
+  protected cannedHints = [
+    "This puzzle isn't really about Pokemon. The only thing you need to know about competitive Pokemon for this puzzle is that EVs need to be in multiples of 4. Knowing more will help but isn't essential.",
+    "Speaking of 4, you'll first need to exract 4 letters from each row, two from each side of the fight. Don't worry about the damage numbers for now.",
+    'You may have noticed already, but only the first 4 of these are actual Pokemon battles',
+    'Is there some way you can order or scale these that makes sense?',
+    'The final answer is (6 3)',
+  ];
+}

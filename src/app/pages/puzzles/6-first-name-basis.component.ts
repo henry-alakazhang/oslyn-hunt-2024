@@ -10,6 +10,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
       You did see a group of young people at the hotel - maybe you could follow their route around the city.
       Only problem is the guide's name has poppsed clean out of your head..."
     extraHint="Click the image to get a spreadsheet"
+    [cannedHints]="cannedHints"
   >
     <div class="flex flex-col md:flex-row align-middle">
       <a
@@ -44,4 +45,9 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   </app-puzzle>`,
   imports: [PuzzleComponent],
 })
-export class PuzzleSixComponent {}
+export class PuzzleSixComponent {
+  protected cannedHints = [
+    'The correct answers here may not necessarily fit, but something else related will.',
+    "The crossword is an odd shape, isn't it? Not a lot of crossing for a crossword...",
+  ];
+}

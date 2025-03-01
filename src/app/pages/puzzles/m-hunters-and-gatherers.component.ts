@@ -11,6 +11,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
       There's only one piece of paper inside - it looks like an invoice but there's a puzzling lack of information.
       If you could get it in order, you might be able to figure out what it costs... and what it's for..."
     extraHint="(note: this puzzle was written in October 2024)"
+    [cannedHints]="cannedHints"
   >
     <table class="font-mono border-separate border-spacing-x-3">
       <tr>
@@ -41,4 +42,10 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
   </app-puzzle>`,
   imports: [PuzzleComponent],
 })
-export class PuzzleMetaComponent {}
+export class PuzzleMetaComponent {
+  protected cannedHints = [
+    "Obviously these aren't really Professor Layton games, but they are certainly related to puzzles!",
+    'This is a meta - the previous puzzle answers are used to index the deciphered string. You need them in the Correct Order (not the puzzle order)',
+    'There extracted phrase is a "mana cost" - there are tools you can use to search using it (one is in the title). The real answer is two words and should be what you need from the valid options.',
+  ];
+}

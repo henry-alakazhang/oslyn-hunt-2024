@@ -11,6 +11,7 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
       You absent-mindedly start scrolling through all your pinned
       websites to find some inspo. Where to go... where to go..."
     extraHint="(the answer is a proper noun)"
+    [cannedHints]="cannedHints"
   >
     <div>
       Two new / two old
@@ -94,4 +95,10 @@ import { PuzzleComponent } from '../../ui/puzzle.component';
     </div>
   </app-puzzle>`,
 })
-export class PuzzleOneComponent {}
+export class PuzzleOneComponent {
+  protected cannedHints = [
+    "These are pins from a video game series. They're grouped by brand to make them easier to find.",
+    'Do the extracted sentence fragments not sound familiar? Maybe try singing?',
+    'If you have a four letter word, consider the theme of the puzzle to get the answer',
+  ];
+}
