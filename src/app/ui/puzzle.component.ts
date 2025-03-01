@@ -10,10 +10,18 @@ import { AnswerService, PuzzleId } from '../answer.service';
       <div class="flex flex-row justify-between">
         <h2 class="text-xl underline">{{ titleName }}</h2>
         <div>
-          @for (hint of cannedHints; track $index) {
+          Hints: @for (hint of cannedHints; track $index) {
           <button
             class="text-xl cursor-pointer"
+            [style]="{
+              filter:
+                hintsUsed < $index
+                  ? 'sepia(90%) brightness(62%) contrast(94%)'
+                  : undefined
+            }"
+            [attr.disabled]="hintsUsed < $index ? '' : undefined"
             [attr.popovertarget]="'hint-' + $index"
+            (click)="openHint($index)"
           >
             🥫
           </button>
@@ -78,15 +86,25 @@ export class PuzzleComponent implements OnInit {
   protected lastAnswer: Signal<string>;
   protected isAnswered: Signal<boolean>;
 
+  protected hintsUsed: number;
+
   answerService = inject(AnswerService);
 
   ngOnInit() {
     this.lastAnswer = this.answerService.lastAnswer[this.puzzleId];
     this.isAnswered = this.answerService.answerStatus[this.puzzleId];
+    this.hintsUsed = Number(
+      localStorage.getItem(`puzzle-${this.puzzleId}-hint-count`) ?? 0
+    );
   }
 
   submit(): void {
     this.answerService.submit(this.puzzleId, this.submitAnswer);
     this.submitAnswer = '';
+  }
+
+  openHint(index: number): void {
+    this.hintsUsed = index + 1;
+    localStorage.setItem(`puzzle-${this.puzzleId}-hint-count`, `${index}`);
   }
 }
