@@ -4,7 +4,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
 @Component({
   template: `
     <app-puzzle
-      puzzleId="2"
+      puzzleId="2024-2"
       titleName="Power Scaling"
       flavour="When you arrive at the airport, an attendant hands you a piece of paper and says it's a list of flights.
         It looks more like fights to you, but even that doesn't seem quite right...

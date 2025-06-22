@@ -3,7 +3,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
 
 @Component({
   template: `<app-puzzle
-    puzzleId="6"
+    puzzleId="2024-6"
     titleName="First Name Basis"
     flavour="
       Given your rather big mistake, you decide to book a tour group for the rest of the trip.

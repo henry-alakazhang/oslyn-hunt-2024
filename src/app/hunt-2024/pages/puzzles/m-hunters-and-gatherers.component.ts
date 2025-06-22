@@ -3,7 +3,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
 
 @Component({
   template: `<app-puzzle
-    puzzleId="m"
+    puzzleId="2024-m"
     titleName="Hunters and Gatherers"
     flavour="
       Hiccups aside, you do end up have a long and enjoyable (if initially stressful) holiday.

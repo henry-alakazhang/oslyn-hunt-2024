@@ -5,7 +5,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   selector: 'app-puzzle-1',
   imports: [PuzzleComponent],
   template: ` <app-puzzle
-    puzzleId="1"
+    puzzleId="2024-1"
     titleName="Sekai"
     flavour="You've decided: it's time for a vacation.
       You absent-mindedly start scrolling through all your pinned

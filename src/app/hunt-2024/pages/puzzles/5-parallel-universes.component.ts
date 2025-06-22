@@ -3,7 +3,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
 
 @Component({
   template: `<app-puzzle
-    puzzleId="5"
+    puzzleId="2024-5"
     titleName="Parallel Universes"
     flavour="
       You've finally arrived at your east-cost seaside holiday destination!

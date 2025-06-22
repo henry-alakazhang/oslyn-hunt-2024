@@ -12,8 +12,8 @@ import { Component } from '@angular/core';
 
       <ul class="list-disc list-inside space-y-1">
         <li>
-          There are 6 puzzles, plus a meta-puzzle. Two puzzles are unlocked
-          initially, and each completed puzzle unlocks another.
+          There are 6 puzzles, plus a meta-puzzle. They are not ordered by
+          difficulty. You can do them in any order.
         </li>
         <li>
           Every bit of text on a puzzle is part of the puzzle. That includes the

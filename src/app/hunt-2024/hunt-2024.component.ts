@@ -20,25 +20,25 @@ import { ButtonComponent } from '../ui/button.component';
           <app-button class="block" path="/2024"> Introduction </app-button>
           <div class="font-semibold border-b border-b-slate-300"></div>
           <app-button class="block" path="/2024/sekai">
-            1 - Sekai @if (answerStatus[1]()) { ☆ }
+            1 - Sekai @if (answerStatus['2024-1']()) { ☆ }
           </app-button>
           <app-button class="block" path="/2024/power-scaling">
-            2 - Power Scaling @if (answerStatus[2]()) { ☆ }
+            2 - Power Scaling @if (answerStatus['2024-2']()) { ☆ }
           </app-button>
           <app-button class="block" path="/2024/capsule-machine">
-            3 - Capsule Machine @if (answerStatus[3]()) { ☆ }
+            3 - Capsule Machine @if (answerStatus['2024-3']()) { ☆ }
           </app-button>
           <app-button class="block" path="/2024/entries-mains-deserts">
-            4 - Entries, Mains, Desserts @if (answerStatus[4]()) { ☆ }
+            4 - Entries, Mains, Desserts @if (answerStatus['2024-4']()) { ☆ }
           </app-button>
           <app-button class="block" path="/2024/parallel-universes">
-            5 - Parallel Universes @if (answerStatus[5]()) { ☆ }
+            5 - Parallel Universes @if (answerStatus['2024-5']()) { ☆ }
           </app-button>
           <app-button class="block" path="/2024/first-name-basis">
-            6 - First Name Basis @if (answerStatus[6]()) { ☆ }
+            6 - First Name Basis @if (answerStatus['2024-6']()) { ☆ }
           </app-button>
           <app-button class="block" path="/2024/hunters-and-gatherers">
-            M - Hunters and Gatherers @if (answerStatus["m"]()) { ☆ }
+            M - Hunters and Gatherers @if (answerStatus['2024-m']()) { ☆ }
           </app-button>
         </div>
         <div class="w-full p-16 overflow-y-auto">
@@ -49,8 +49,6 @@ import { ButtonComponent } from '../ui/button.component';
   `,
 })
 export class Hunt2024Component {
-  title = 'oslyn-hunt-2024';
-
   protected answerService = inject(AnswerService);
   protected answerStatus = this.answerService.answerStatus;
 }
