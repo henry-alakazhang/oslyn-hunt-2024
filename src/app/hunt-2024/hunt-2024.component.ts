@@ -41,7 +41,9 @@ import { ButtonComponent } from '../ui/button.component';
             M - Hunters and Gatherers @if (answerStatus['2024-m']()) { ☆ }
           </app-button>
         </div>
-        <div class="w-full p-16 overflow-y-auto">
+        <div
+          class="w-full p-4 md:p-12 flex-shrink-0 md:flex-shrink md:overflow-y-auto"
+        >
           <router-outlet />
         </div>
       </div>

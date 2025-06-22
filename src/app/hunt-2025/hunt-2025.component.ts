@@ -59,7 +59,11 @@ import { ButtonComponent } from '../ui/button.component';
           Each Shapen Sister Her Domain
         </app-button>
       </div>
-      <div class="w-full p-16 overflow-y-auto">
+      <!-- mobile: content is full height and page-scrollable. navbar scrollable above. -->
+      <!-- desktop: content is capped height and internally scrollable. navbar static on left -->
+      <div
+        class="w-full p-4 md:p-12 flex-shrink-0 md:flex-shrink md:overflow-y-auto"
+      >
         <router-outlet />
       </div>
     </div>
