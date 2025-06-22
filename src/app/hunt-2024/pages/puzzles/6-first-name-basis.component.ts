@@ -18,7 +18,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
         href="https://docs.google.com/spreadsheets/d/1dLSqnkq5VREEAvloKKgU-jZsRdqE_pK8pL_DKYcFH-U/edit?usp=sharing"
         target="_blank"
       >
-        <img src="first-name-basis.png" />
+        <img src="./2024/first-name-basis.png" />
       </a>
       <div>
         <p class="font-bold"> Across </p>

@@ -13,7 +13,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   >
     <div class="flex flex-col max-w-3xl">
       @for (img of [1, 2, 3, 4, 5, 6]; track $index) {
-      <img class="mb-2" src="parallel-universes/{{ img }}.jpg" />
+      <img class="mb-2" src="./2024/parallel-universes/{{ img }}.jpg" />
       }
     </div>
   </app-puzzle>`,
