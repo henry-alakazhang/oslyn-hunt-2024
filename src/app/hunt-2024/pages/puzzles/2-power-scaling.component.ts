@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PuzzleComponent } from '../../ui/puzzle.component';
+import { PuzzleComponent } from '../../../ui/puzzle.component';
 
 @Component({
   template: `
