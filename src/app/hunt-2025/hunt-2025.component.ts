@@ -18,15 +18,15 @@ import { ButtonComponent } from '../ui/button.component';
         <div class="font-semibold border-b border-b-slate-300"></div>
         <app-button class="block" path="/2025"> Introduction </app-button>
         <app-button class="block" path="/2025/notions-of-thieves">
-          Meta: Notions of Thieves
+          Meta: Notions of Thieves @if (answerStatus['2025-meta']()) { ☆ }
         </app-button>
         <div class="font-semibold border-b border-b-slate-300"></div>
         <p class="text-lg"> Easy </p>
         <app-button class="block" size="text-md" path="/2025/of-a-feather">
-          Of a Feather
+          Of a Feather @if (answerStatus['2025-e1']()) { ☆ }
         </app-button>
         <app-button class="block" size="text-md" path="/2025/take-your-time">
-          Take Your Time
+          Take Your Time @if (answerStatus['2025-e2']()) { ☆ }
         </app-button>
         <div class="font-semibold border-b border-b-slate-300"></div>
         <p class="text-lg"> Medium </p>
@@ -35,28 +35,28 @@ import { ButtonComponent } from '../ui/button.component';
           size="text-md"
           path="/2025/answer-pronounced-answer"
         >
-          Answer (Pronounced 'Answer')
+          Answer (Pronounced 'Answer') @if (answerStatus['2025-m1']()) { ☆ }
         </app-button>
         <app-button class="block" size="text-md" path="/2025/colours-picked">
-          Colours Picked
+          Colours Picked @if (answerStatus['2025-m2']()) { ☆ }
         </app-button>
         <app-button class="block" size="text-md" path="/2025/national-righters">
-          National Righters
+          National Righters @if (answerStatus['2025-m3']()) { ☆ }
         </app-button>
         <div class="font-semibold border-b border-b-slate-300"></div>
         <p class="text-lg"> Hard </p>
         <app-button class="block" size="text-md" path="/2025/flags-to-riches">
-          Flags to Riches
+          Flags to Riches @if (answerStatus['2025-h1']()) { ☆ }
         </app-button>
         <app-button class="block" size="text-md" path="/2025/from-genesis">
-          From Genesis
+          From Genesis @if (answerStatus['2025-h2']()) { ☆ }
         </app-button>
         <app-button
           class="block"
           size="text-md"
           path="/2025/each-shapen-sister"
         >
-          Each Shapen Sister Her Domain
+          Each Shapen Sister Her Domain @if (answerStatus['2025-h3']()) { ☆ }
         </app-button>
       </div>
       <!-- mobile: content is full height and page-scrollable. navbar scrollable above. -->

@@ -5,7 +5,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   selector: 'app-notions-of-thieves',
   template: `
     <app-puzzle
-      puzzleId="2025-m"
+      puzzleId="2025-meta"
       titleName="Notions of Thieves"
       flavour=""
       [cannedHints]="[]"
