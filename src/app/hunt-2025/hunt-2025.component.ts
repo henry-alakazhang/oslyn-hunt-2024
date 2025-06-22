@@ -35,7 +35,7 @@ import { ButtonComponent } from '../ui/button.component';
           size="text-md"
           path="/2025/answer-pronounced-answer"
         >
-          Answer (Pronounced Answer)
+          Answer (Pronounced 'Answer')
         </app-button>
         <app-button class="block" size="text-md" path="/2025/colours-picked">
           Colours Picked
@@ -54,7 +54,7 @@ import { ButtonComponent } from '../ui/button.component';
         <app-button
           class="block"
           size="text-md"
-          path="/2025/each-shapen-sister-her-domain"
+          path="/2025/each-shapen-sister"
         >
           Each Shapen Sister Her Domain
         </app-button>

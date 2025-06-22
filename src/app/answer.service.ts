@@ -11,8 +11,7 @@ type PuzzleId2024 = '1' | '2' | '3' | '4' | '5' | '6' | 'm';
 type PuzzleId2025 = 'e1' | 'e2' | 'm1' | 'm2' | 'm3' | 'h1' | 'h2' | 'h3';
 
 // year + valid ids for that year
-export type PuzzleId = `2024-${PuzzleId2024}`;
-// | `2025-${PuzzleId2025}`;
+export type PuzzleId = `2024-${PuzzleId2024}` | `2025-${PuzzleId2025}`;
 
 @Injectable({
   providedIn: 'root',
@@ -26,6 +25,14 @@ export class AnswerService {
     '2024-5': 'f790b7da70ca16b0434d0c5194389d46',
     '2024-6': '72653eebc70ae85b3d34c8e90f6b679b',
     '2024-m': 'd8f65bd8b911c3a4d935e7fc8cf143bf',
+    '2025-e1': '',
+    '2025-e2': '',
+    '2025-m1': '',
+    '2025-m2': '',
+    '2025-m3': '',
+    '2025-h1': '',
+    '2025-h2': '',
+    '2025-h3': '',
   };
 
   private puzzleIds = Object.keys(this.answerHashes) as PuzzleId[];
