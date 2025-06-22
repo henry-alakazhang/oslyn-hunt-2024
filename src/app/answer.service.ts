@@ -30,6 +30,7 @@ export class AnswerService {
 
   private puzzleIds = Object.keys(this.answerHashes) as PuzzleId[];
 
+  /** A signal for each puzzle with a string containing the most recent answer. */
   lastAnswer: { [k in PuzzleId]: WritableSignal<string> } =
     this.puzzleIds.reduce(
       (acc, id) => ({
@@ -40,6 +41,7 @@ export class AnswerService {
       {} as { [k in PuzzleId]: WritableSignal<string> }
     );
 
+  /** A signal for each puzzle with a boolean containing whether or not the puzzle has been solved */
   answerStatus: { [k in PuzzleId]: Signal<boolean> } = this.puzzleIds.reduce(
     (acc, id) => ({
       ...acc,
