@@ -11,12 +11,13 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
       answerHash=""
       [cannedHints]="[]"
     >
-      <div class="flex flex-row">
-        <div class="basis-24 mx-2">
+      <div class="flex flex-col">
+        <div class="flex flex-row gap-2 mb-2">
+          <p> ... </p>
           <img src="./2025/from-genesis.png" />
           <img src="./2025/from-genesis.png" />
         </div>
-        <div class="basis-48 mx-2">
+        <div class="mb-2">
           <p> -AND- </p>
           <p> ANOTHER- </p>
           <p> -AT- </p>
@@ -47,7 +48,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
           <p> -VOICE </p>
           <p> WINDS- </p>
         </div>
-        <div class="basis-28 mx-2">
+        <div class="flex flex-row gap-2">
           <p> 103 </p>
           <p> 12 </p>
           <p> 20 </p>
