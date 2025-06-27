@@ -5,7 +5,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   selector: 'app-each-shapen-sister',
   template: `
     <app-puzzle
-      puzzleId="2025-h3"
+      puzzleId="2025-h1"
       titleName="Each Shapen Sister Her Domain"
       flavour=""
       answerHash=""

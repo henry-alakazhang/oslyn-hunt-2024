@@ -5,7 +5,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   selector: 'app-flags-to-riches',
   template: `
     <app-puzzle
-      puzzleId="2025-h1"
+      puzzleId="2025-h2"
       titleName="Flags to Riches"
       flavour=""
       answerHash=""

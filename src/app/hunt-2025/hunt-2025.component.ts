@@ -45,18 +45,18 @@ import { ButtonComponent } from '../ui/button.component';
         </app-button>
         <div class="font-semibold border-b border-b-slate-300"></div>
         <p class="text-lg"> Hard </p>
-        <app-button class="block" size="text-md" path="/2025/flags-to-riches">
-          Flags to Riches @if (answerStatus['2025-h1']()) { ☆ }
-        </app-button>
-        <app-button class="block" size="text-md" path="/2025/from-genesis">
-          From Genesis @if (answerStatus['2025-h2']()) { ☆ }
-        </app-button>
         <app-button
           class="block"
           size="text-md"
           path="/2025/each-shapen-sister"
         >
-          Each Shapen Sister Her Domain @if (answerStatus['2025-h3']()) { ☆ }
+          Each Shapen Sister Her Domain @if (answerStatus['2025-h1']()) { ☆ }
+        </app-button>
+        <app-button class="block" size="text-md" path="/2025/flags-to-riches">
+          Flags to Riches @if (answerStatus['2025-h2']()) { ☆ }
+        </app-button>
+        <app-button class="block" size="text-md" path="/2025/from-genesis">
+          From Genesis @if (answerStatus['2025-h3']()) { ☆ }
         </app-button>
       </div>
       <!-- mobile: content is full height and page-scrollable. navbar scrollable above. -->

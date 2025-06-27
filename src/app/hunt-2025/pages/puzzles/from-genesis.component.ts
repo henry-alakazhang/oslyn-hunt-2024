@@ -5,7 +5,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   selector: 'app-from-genesis',
   template: `
     <app-puzzle
-      puzzleId="2025-h2"
+      puzzleId="2025-h3"
       titleName="From Genesis"
       flavour=""
       answerHash=""
