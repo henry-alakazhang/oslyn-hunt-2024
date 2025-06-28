@@ -7,33 +7,34 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
     <app-puzzle
       puzzleId="2025-h1"
       titleName="Each Shapen Sister Her Domain"
-      flavour=""
-      [cannedHints]="[]"
+      flavour="Sholmes' case notes, Room 521: Curious. Five people seem to have shared this room at different times."
+      extraHint="No knowledge of the referenced game is required to solve this puzzle. But you should really play it."
+      [cannedHints]="cannedHints"
     >
-      <div class="flex flex-row align-baseline mb-2">
+      <div class="flex flex-col md:flex-row align-baseline mb-2">
         <div
-          class="w-24 text-center text-white"
+          class="w-36 text-center text-white"
           style="background-color: #0099FF"
         >
-          WATCH
+          WATCHER
         </div>
-        <div class="w-24 text-center" style="background-color: #FF9900">
-          FIRE
+        <div class="w-36 text-center" style="background-color: #FF9900">
+          BANG BANG FIRE
         </div>
-        <div class="w-24 text-center" style="background-color: #00FF00">
-          FIX
+        <div class="w-36 text-center" style="background-color: #00FF00">
+          FIXER
         </div>
         <div
-          class="w-24 text-center text-white"
+          class="w-36 text-center text-white"
           style="background-color: #FF00FF"
         >
-          HEAL
+          HEALER
         </div>
         <div
-          class="w-24 text-center text-white"
+          class="w-36 text-center text-white"
           style="background-color: #9900FF"
         >
-          KNOW
+          KNOWER
         </div>
       </div>
       <div class="flex flex-col md:flex-row">
@@ -75,4 +76,10 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   `,
   imports: [PuzzleComponent],
 })
-export class EachShapenSisterComponent {}
+export class EachShapenSisterComponent {
+  cannedHints = [
+    "There doesn't seem to be a length on these crossword clues, but I suspect you should be able to tell how long they all are.",
+    "They definitely are crossword clues, even if there isn't necessarily a full grid to fill...",
+    'Are there any Connections between the clues?',
+  ];
+}

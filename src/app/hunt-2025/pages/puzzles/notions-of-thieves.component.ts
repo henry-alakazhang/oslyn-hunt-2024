@@ -8,8 +8,8 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
     <app-puzzle
       puzzleId="2025-meta"
       titleName="Notions of Thieves"
-      flavour=""
-      [cannedHints]="[]"
+      flavour="Sholmes' case notes, The Vault: Come back here after taking a look at the rooms, Wilson. Once you get the evidence in order, you should be able to figure out who the thief is working for. Just make sure not to fall for any fool's gold or orange herrings."
+      [cannedHints]="cannedHints"
     >
       <img class="mb-4" src="./2025/notions-of-thieves.jpg" />
 
@@ -60,6 +60,12 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   imports: [PuzzleComponent],
 })
 export class NotionsOfThievesComponent {
+  cannedHints = [
+    'The other rooms may be relevant to getting your thoughts in order.',
+    'You already have this hint, Wilson. Take another look at what I named the cases for each room.',
+    'The image pictured seems to be from a card game and depicts some guilds, each of which represents two colours out of white, blue, black, red and green.',
+  ];
+
   answerService = inject(AnswerService);
 
   answerStatus = this.answerService.answerStatus;

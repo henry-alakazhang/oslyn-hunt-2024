@@ -6,13 +6,13 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   template: `
     <app-puzzle
       puzzleId="2025-h3"
-      titleName="From Genesis"
-      flavour=""
-      [cannedHints]="[]"
+      titleName="From Genesis..."
+      flavour="Sholmes' case notes, Room 203: A book has been torn to pieces in here. Reminds me of the time Mycroft insulted King James and was forced to cut his latest essay into words."
+      [cannedHints]="cannedHints"
     >
       <div class="flex flex-col">
-        <div class="flex flex-row gap-2 mb-2">
-          <p> ... </p>
+        <div class="flex flex-row items-baseline gap-2 mb-2">
+          <p class="text-5xl"> ... </p>
           <img src="./2025/from-genesis.png" />
           <img src="./2025/from-genesis.png" />
         </div>
@@ -65,4 +65,10 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   `,
   imports: [PuzzleComponent],
 })
-export class FromGenesisComponent {}
+export class FromGenesisComponent {
+  cannedHints = [
+    'Some of these seem to be proper nouns, though I suspect neither of us have never been to the Crimea mentioned here.',
+    'Perhaps these entries and chapters can be turned into chapters and verses?',
+    'Chapters and verses... from Genesis!',
+  ];
+}

@@ -7,8 +7,8 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
     <app-puzzle
       puzzleId="2025-m1"
       titleName="Answer (Pronounced 'Answer')"
-      flavour=""
-      [cannedHints]="[]"
+      flavour="Sholmes' case notes, Room 620: Never understood why limericks were so popular, culturally speaking, in Britain and Ireland."
+      [cannedHints]="cannedHints"
     >
       <div class="mb-3">
         <h2>"_ _ _ _ _ _ _" (3)</h2>
@@ -94,4 +94,9 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   `,
   imports: [PuzzleComponent],
 })
-export class AnswerPronouncedAnswerComponent {}
+export class AnswerPronouncedAnswerComponent {
+  cannedHints = [
+    'The rhyming scheme of these limericks seems to work, but the meter is rather shocking.',
+    'Some of these "fellows" described seem familiar - one of them very much so!',
+  ];
+}

@@ -6,8 +6,8 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   template: ` <app-puzzle
     puzzleId="2025-e2"
     titleName="Take Your Time"
-    flavour=""
-    [cannedHints]="[]"
+    flavour="Sholmes' case notes, Room 104: My word, there are a lot of screens in here!"
+    [cannedHints]="cannedHints"
   >
     <img src="./2025/take-your-time/1.jpg" />
     <img src="./2025/take-your-time/2.jpg" />
@@ -23,4 +23,6 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   </app-puzzle>`,
   imports: [PuzzleComponent],
 })
-export class TakeYourTimeComponent {}
+export class TakeYourTimeComponent {
+  cannedHints = ["These are real videos, aren't they, Wilson?"];
+}

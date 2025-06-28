@@ -7,8 +7,8 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
     <app-puzzle
       puzzleId="2025-m3"
       titleName="National Righters"
-      flavour=""
-      [cannedHints]="[]"
+      flavour="Sholmes' case notes, Room 281/2: Two adjoining rooms, similar but not entirely the same. First difference should be enough to figure out what happened here."
+      [cannedHints]="cannedHints"
     >
       <div class="flex flex-row items-center mb-2">
         <audio
@@ -149,4 +149,10 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
   `,
   imports: [PuzzleComponent],
 })
-export class NationalRightersComponent {}
+export class NationalRightersComponent {
+  cannedHints = [
+    'Perhaps the audio recordings suggest saying back the answers?',
+    "The words sound rather ambiguous when read out, don't they?",
+    "As I've already noted, the first difference is all you need to spot.",
+  ];
+}
