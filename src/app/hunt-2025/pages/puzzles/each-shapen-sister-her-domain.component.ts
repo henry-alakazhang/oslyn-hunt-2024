@@ -8,7 +8,6 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
       puzzleId="2025-h1"
       titleName="Each Shapen Sister Her Domain"
       flavour=""
-      answerHash=""
       [cannedHints]="[]"
     >
       <div class="flex flex-row align-baseline mb-2">

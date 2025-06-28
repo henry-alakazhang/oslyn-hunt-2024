@@ -79,8 +79,6 @@ export class PuzzleComponent implements OnInit {
   @Input() flavour: string;
   @Input() extraHint: string;
   @Input() cannedHints: string[];
-  /** MD5 hash of the answer */
-  @Input() answerHash: string;
 
   protected submitAnswer = '';
   protected lastAnswer: Signal<string>;

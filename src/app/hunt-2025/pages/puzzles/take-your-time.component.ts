@@ -7,7 +7,6 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
     puzzleId="2025-e2"
     titleName="Take Your Time"
     flavour=""
-    answerHash=""
     [cannedHints]="[]"
   >
     <img src="./2025/take-your-time/1.jpg" />

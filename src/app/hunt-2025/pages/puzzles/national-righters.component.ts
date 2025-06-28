@@ -8,7 +8,6 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
       puzzleId="2025-m3"
       titleName="National Righters"
       flavour=""
-      answerHash=""
       [cannedHints]="[]"
     >
       <div class="flex flex-row items-center mb-2">

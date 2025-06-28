@@ -8,7 +8,6 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
       puzzleId="2025-h3"
       titleName="From Genesis"
       flavour=""
-      answerHash=""
       [cannedHints]="[]"
     >
       <div class="flex flex-col">

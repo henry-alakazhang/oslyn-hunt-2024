@@ -30,8 +30,8 @@ import { Component } from '@angular/core';
       <p class="italic mb-2">
         Sholmes: Not to fear, Wilson! I may be falsely accused, trapped in this
         gaol cell, with an imminent execution planned in 2-3 business days, but
-        not all hope is lost. All you need to do is investigate the crime scene
-        in my stead and find the real thief!
+        not all hope is lost. All you need to do is take my case notes and
+        continue to investigate the crime scenes to find the real thief.
       </p>
 
       <p class="italic mb-2">

@@ -8,7 +8,6 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
       puzzleId="2025-e1"
       titleName="Of a Feather"
       flavour=""
-      answerHash=""
       [cannedHints]="[]"
     >
       <a href="./2025/of-a-feather.jpg" target="_blank">

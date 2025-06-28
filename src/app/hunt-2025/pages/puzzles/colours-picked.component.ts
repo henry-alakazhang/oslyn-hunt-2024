@@ -8,7 +8,6 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
       puzzleId="2025-m2"
       titleName="Colours Picked"
       flavour=""
-      answerHash=""
       [cannedHints]="[]"
     >
       <div class="flex flex-row flex-wrap">
