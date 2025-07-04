@@ -29,7 +29,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
       </div>
 
       <div class="mb-3">
-        <h2>"_ _ _ _ _ _ _ . _ _ _ _ (3)"</h2>
+        <h2>"_ _ _ _ _ _ _ . _ _ _ _ (6)"</h2>
         There once was a young lad from great<br />
         Whos childhood was just a bit innate <br />
         He turned towards spells <br />
