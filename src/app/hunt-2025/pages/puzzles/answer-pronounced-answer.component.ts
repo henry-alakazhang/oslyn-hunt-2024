@@ -96,7 +96,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
 })
 export class AnswerPronouncedAnswerComponent {
   cannedHints = [
-    'The rhyming scheme of these limericks seems to work, but the meter is rather shocking.',
+    'The rhyming scheme of these limericks seems to work, but the meter is beyond jumbled up.',
     'Some of these "fellows" described seem familiar - one of them very much so!',
   ];
 }

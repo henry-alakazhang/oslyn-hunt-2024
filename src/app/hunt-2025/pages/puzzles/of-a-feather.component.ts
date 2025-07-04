@@ -19,7 +19,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
 })
 export class OfAFeatherComponent {
   cannedHints = [
-    'If I recall correctly, in Wingsan, each row represents a habitat. That still seems to match this board.',
-    'The cards on the board seem to be in the right place, so just play your hand out, then draw more cards.',
+    'If I recall correctly, in Wingspan, each row represents a habitat. That still seems to match this board, in some sense.',
+    'The cards on the board seem to be in the right place and order already, too.',
   ];
 }
