@@ -54,7 +54,7 @@ import { AnswerService, PuzzleId } from '../answer.service';
           [(ngModel)]="submitAnswer"
         />
         <button
-          class="rounded-md p-1 border border-slate-400 bg-slate-100 hover:bg-slate-200 active:bg-slate-300"
+          class="rounded-md p-1 border border-amber-100 bg-amber-800 hover:bg-amber-700 active:bg-amber-800"
           type="submit"
           [class.pointer-events-none]="isAnswered()"
           [disabled]="isAnswered()"
