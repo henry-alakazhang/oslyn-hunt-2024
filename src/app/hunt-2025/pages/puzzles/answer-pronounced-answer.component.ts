@@ -74,7 +74,7 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
       </div>
 
       <div class="mb-3">
-        <h2>"_ _ _ _ _ _ _ _ _ _ (6)"</h2>
+        <h2>"_ _ _ . _ _ _ _ _ _ (6)"</h2>
         There once was a fellow from Peru <br />
         Who thought himself last of his zoo <br />
         He lived in a hat <br />
