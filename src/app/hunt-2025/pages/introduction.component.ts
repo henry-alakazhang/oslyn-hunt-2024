@@ -27,22 +27,32 @@ import { Component } from '@angular/core';
         suspect instead.
       </p>
 
-      <p class="italic mb-2">
-        Sholmes: Not to fear, Wilson! I may be falsely accused, trapped in this
-        gaol cell, with an imminent execution planned in 2-3 business days, but
-        not all hope is lost. All you need to do is take my case notes and
-        continue to investigate the crime scenes to find the real thief.
-      </p>
+      <div class="flex flex-row mb-2">
+        <img class="mr-2" src="./2025/sholmes.png" width="50" />
+        <p class="italic">
+          Sholmes: Not to fear, Wilson! I may be falsely accused, trapped in
+          this gaol cell, with an imminent execution planned in 2-3 business
+          days, but not all hope is lost. All you need to do is take my case
+          notes and continue to investigate the crime scenes to find the real
+          thief.
+        </p>
+      </div>
 
-      <p class="italic mb-2">
-        Sholmes: While you may not be quite at my level of intellect,
-        perception, anatomical understanding, charisma, fighting strength,
-        deductive ability, knowledge of chemistry or intellect, I'm sure you
-        will still be able to do it. Remember that you can, of course, consult
-        me at any time.
-      </p>
+      <div class="flex flex-row mb-2">
+        <img class="mr-2" src="./2025/sholmes.png" width="50" />
+        <p class="italic">
+          Sholmes: While you may not be quite at my level of intellect,
+          perception, anatomical understanding, charisma, fighting strength,
+          deductive ability, knowledge of chemistry or intellect, I'm sure you
+          will still be able to do it. Remember that you can, of course, consult
+          me at any time.
+        </p>
+      </div>
 
-      <p class="italic mb-2"> Good luck, Wilson! </p>
+      <div class="flex flex-row mb-2">
+        <img class="mr-2" src="./2025/sholmes.png" width="50" />
+        <p class="italic"> Good luck, Wilson! </p>
+      </div>
 
       <p class="italic mb-2"> </p>
 
