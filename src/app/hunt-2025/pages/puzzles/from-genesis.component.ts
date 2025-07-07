@@ -69,5 +69,6 @@ export class FromGenesisComponent {
   cannedHints = [
     'Some of these seem to be proper nouns, though I suspect neither of us have been to the Crimea mentioned here.',
     'Perhaps these entries and chapters can be turned into chapters and verses?',
+    'And finally, that strange icon... to of them, as well.',
   ];
 }
