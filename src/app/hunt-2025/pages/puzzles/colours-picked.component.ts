@@ -16,9 +16,9 @@ import { PuzzleComponent } from '../../../ui/puzzle.component';
 
       <p>Bases:</p>
       <ol class="list-decimal list-inside">
-        <li> _ _ _ _ _ _ _ _ _ _ _ _ [6] </li>
-        <li> _ _ _ _ _ _ _ (_ _ _ _ _ _)[7] </li>
-        <li> _ _ _ _ _ _ _ _ _ _ _ _ _[6] </li>
+        <li> _ _ _ _ _ _ _ _ &nbsp; _ _ _ _ [6] </li>
+        <li> _ _ _ _ _ _ _ &nbsp; (_ _ _ _ _ _)[7] </li>
+        <li> _ _ _ _ _ &nbsp; _ _ _ _ _ _ _ _[6] </li>
       </ol>
       <p class="mt-1"> Recipe:</p>
       <ol class="list-decimal list-inside">
